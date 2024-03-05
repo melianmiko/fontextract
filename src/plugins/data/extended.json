@@ -1,0 +1,704 @@
+{
+  "weekdays/full/zh-CN": [
+    "周一",
+    "周二",
+    "周三",
+    "周四",
+    "周五",
+    "周六",
+    "周日"
+  ],
+  "weekdays/full/zh-TW": [
+    "週一",
+    "週二",
+    "週三",
+    "週四",
+    "週五",
+    "週六",
+    "週日"
+  ],
+  "weekdays/full/en-US": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+  ],
+  "weekdays/short_3/en-US": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+  ],
+  "weekdays/short_2/en-US": [
+    "Mo",
+    "Tu",
+    "We",
+    "Th",
+    "Fr",
+    "Sa",
+    "Su"
+  ],
+  "weekdays/full/es-ES": [
+    "Lunes",
+    "Martes",
+    "Miércoles",
+    "Jueves",
+    "Viernes",
+    "Sábado",
+    "Domingo"
+  ],
+  "weekdays/short_3/es-ES": [
+    "Lun",
+    "Mar",
+    "Mié",
+    "Jue",
+    "Vie",
+    "Sab",
+    "Dom"
+  ],
+  "weekdays/short_2/es-ES": [
+    "Lu",
+    "Ma",
+    "Mi",
+    "Ju",
+    "Vi",
+    "Sa",
+    "Do"
+  ],
+  "weekdays/full/ru-RU": [
+    "Понедельник",
+    "Вторник",
+    "Среда",
+    "Четверг",
+    "Пятница",
+    "Суббота",
+    "Воскресенье"
+  ],
+  "weekdays/short_3/ru-RU": [
+    "Пнд",
+    "Втр",
+    "Срд",
+    "Чтв",
+    "Птн",
+    "Сбт",
+    "Вск"
+  ],
+  "weekdays/short_2/ru-RU": [
+    "Пн",
+    "Вт",
+    "Ср",
+    "Чт",
+    "Пт",
+    "Сб",
+    "Вс"
+  ],
+  "weekdays/full/ko-KR": [
+    "월요일",
+    "화요일",
+    "수요일",
+    "목요일",
+    "금요일",
+    "토요일",
+    "일요일"
+  ],
+  "weekdays/full/fr-FR": [
+    "Lundi",
+    "Mardi",
+    "Mercredi",
+    "Jeudi",
+    "Vendredi",
+    "Samedi",
+    "Dimanche"
+  ],
+  "weekdays/short_3/fr-FR": [
+    "Lun",
+    "Mar",
+    "Mer",
+    "Jeu",
+    "Ven",
+    "Sam",
+    "Dim"
+  ],
+  "weekdays/short_2/fr-FR": [
+    "Lu",
+    "Ma",
+    "Me",
+    "Je",
+    "Ve",
+    "Sa",
+    "Di"
+  ],
+  "weekdays/full/de-DE": [
+    "Montag",
+    "Dienstag",
+    "Mittwoch",
+    "Donnerstag",
+    "Freitag",
+    "Samstag",
+    "Sonntag"
+  ],
+  "weekdays/short_3/de-DE": [
+    "Mon",
+    "Die",
+    "Mit",
+    "Don",
+    "Fre",
+    "Sam",
+    "Son"
+  ],
+  "weekdays/short_2/de-DE": [
+    "Mo",
+    "Di",
+    "Mi",
+    "Do",
+    "Fr",
+    "Sa",
+    "So"
+  ],
+  "weekdays/full/id-ID": [
+    "Senin",
+    "Selasa",
+    "Rabu",
+    "Kamis",
+    "Jumat",
+    "Sabtu",
+    "Minggu"
+  ],
+  "weekdays/short_3/id-ID": [
+    "Sen",
+    "Sel",
+    "Rab",
+    "Kam",
+    "Jum",
+    "Sab",
+    "Min"
+  ],
+  "weekdays/short_2/id-ID": [
+    "Se",
+    "Sel",
+    "Ra",
+    "Ka",
+    "Ju",
+    "Sa",
+    "Mi"
+  ],
+  "weekdays/full/pl-PL": [
+    "Poniedziałek",
+    "Wtorek",
+    "Środa",
+    "Czwartek",
+    "Piątek",
+    "Sobota",
+    "Niedziela"
+  ],
+  "weekdays/short_3/pl-PL": [
+    "Pon",
+    "Wto",
+    "Śro",
+    "Czw",
+    "Pią",
+    "Sob",
+    "Nie"
+  ],
+  "weekdays/short_2/pl-PL": [
+    "Po",
+    "Wt",
+    "Sr",
+    "Cz",
+    "Pi",
+    "So",
+    "Ni"
+  ],
+  "weekdays/full/it-IT": [
+    "Lunedì",
+    "Martedi",
+    "Mercoledi",
+    "Giovedi",
+    "Venerdi",
+    "Sabato",
+    "Domenica"
+  ],
+  "weekdays/short_3/it-IT": [
+    "Lun",
+    "Mar",
+    "Mer",
+    "Gio",
+    "Ven",
+    "Sab",
+    "Dom"
+  ],
+  "weekdays/short_2/it-IT": [
+    "Lu",
+    "Ma",
+    "Me",
+    "Gi",
+    "Ve",
+    "Sa",
+    "Do"
+  ],
+  "weekdays/full/ja-JP": [
+    "月曜",
+    "火曜",
+    "水曜",
+    "木曜",
+    "金曜",
+    "土曜",
+    "日曜"
+  ],
+  "weekdays/full/th-TH": [
+    "จันทร์",
+    "อังคาร",
+    "วันพุธ",
+    "พฤหัสบดี",
+    "ศุกร์",
+    "เสาร์",
+    "อาทิตย์"
+  ],
+  "weekdays/full/ar-EG": [
+    "الاثنين",
+    "الثلاثاء",
+    "الأربعاء",
+    "الخميس",
+    "الجمعة",
+    "السبت",
+    "الأحد"
+  ],
+  "weekdays/full/vi-VN": [
+    "Thứ hai",
+    "Thứ ba",
+    "Thứ tư",
+    "Thứ năm",
+    "Thứ sáu",
+    "Thứ bảy",
+    "Chủ nhật"
+  ],
+  "weekdays/full/pt-PT": [
+    "Segunda",
+    "Terça",
+    "Quarta",
+    "Quinta",
+    "Sexta",
+    "Sábado",
+    "Domingo"
+  ],
+  "weekdays/short_3/pt-PT": [
+    "Seg",
+    "Ter",
+    "Qua",
+    "Qui",
+    "Sex",
+    "Sáb",
+    "Dom"
+  ],
+  "weekdays/short_2/pt-PT": [
+    "Se",
+    "Te",
+    "Qu",
+    "Qui",
+    "Se",
+    "Sá",
+    "Do"
+  ],
+  "weekdays/full/nl-NL": [
+    "Maandag",
+    "Dinsdag",
+    "Woensdag",
+    "Donderdag",
+    "Vrijdag",
+    "Zaterdag",
+    "Zondag"
+  ],
+  "weekdays/short_3/nl-NL": [
+    "Maa",
+    "Din",
+    "Woe",
+    "Don",
+    "Vri",
+    "Zat",
+    "Zon"
+  ],
+  "weekdays/short_2/nl-NL": [
+    "Ma",
+    "Di",
+    "Wo",
+    "Do",
+    "Vr",
+    "Za",
+    "Zo"
+  ],
+  "weekdays/full/tr-TR": [
+    "Pazartesi",
+    "Salı",
+    "Çarşamba",
+    "Perşembe",
+    "Cuma",
+    "Cumartesi",
+    "Pazar"
+  ],
+  "weekdays/full/uk-UA": [
+    "Понеділок",
+    "Вівторок",
+    "Середа",
+    "Четвер",
+    "Пятниця",
+    "Субота",
+    "Неділя"
+  ],
+  "weekdays/short_3/uk-UA": [
+    "Пнд",
+    "Втр",
+    "Срд",
+    "Чтв",
+    "Птн",
+    "Сбт",
+    "Ндл"
+  ],
+  "weekdays/short_2/uk-UA": [
+    "Пн",
+    "Вт",
+    "Ср",
+    "Чт",
+    "Пт",
+    "Сб",
+    "Нд"
+  ],
+  "weekdays/full/iw-IL": [
+    "יוֹם שֵׁנִי",
+    "יוֹם שְׁלִישִׁי",
+    "יום רביעי",
+    "יוֹם חֲמִישִׁי",
+    "יוֹם שִׁישִׁי",
+    "יום שבת",
+    "יוֹם רִאשׁוֹן"
+  ],
+  "weekdays/full/pt-BR": [
+    "Segunda",
+    "Terca",
+    "Quarta",
+    "Quinta",
+    "Sexta",
+    "Sabado",
+    "Domingo"
+  ],
+  "weekdays/short_3/pt-BR": [
+    "Seg",
+    "Ter",
+    "Qua",
+    "Qui",
+    "Sex",
+    "Sab",
+    "Dom"
+  ],
+  "weekdays/short_2/pt-BR": [
+    "Se",
+    "Te",
+    "Qu",
+    "Qui",
+    "Se",
+    "Sa",
+    "Do"
+  ],
+  "weekdays/full/ro-RO": [
+    "Luni",
+    "Marti",
+    "Miercuri",
+    "Joi",
+    "Vinery",
+    "Sambata",
+    "Duminica"
+  ],
+  "weekdays/short_3/ro-RO": [
+    "Lun",
+    "Mar",
+    "Mie",
+    "Joi",
+    "Vin",
+    "Sam",
+    "Dum"
+  ],
+  "weekdays/short_2/ro-RO": [
+    "Lu",
+    "Ma",
+    "Mi",
+    "Joi",
+    "Vi",
+    "Sa",
+    "Du"
+  ],
+  "weekdays/full/cs-CZ": [
+    "Pondeli",
+    "Utery",
+    "Streda",
+    "Ctvrtek",
+    "Patek",
+    "Sobota",
+    "Nedele"
+  ],
+  "weekdays/short_3/cs-CZ": [
+    "Pan",
+    "Ute",
+    "Str",
+    "Ctv",
+    "Pat",
+    "Sob",
+    "Ned"
+  ],
+  "weekdays/short_2/cs-CZ": [
+    "Po",
+    "Ut",
+    "St",
+    "Ct",
+    "Pa",
+    "So",
+    "Ne"
+  ],
+  "weekdays/full/el-GR": [
+    "Κυριακή",
+    "Δευτέρα",
+    "Τρίτη",
+    "Τετάρτη",
+    "Πέμπτη",
+    "Παρασκευή",
+    "Σάββατο"
+  ],
+  "weekdays/full/sr-RS": [
+    "Ponedeljak",
+    "Utorak",
+    "Sreda",
+    "Četvrtak",
+    "Petak",
+    "Subota",
+    "Nedelja"
+  ],
+  "weekdays/short_3/sr-RS": [
+    "Pon",
+    "Uto",
+    "Sre",
+    "Čet",
+    "Pet",
+    "Sub",
+    "Ned"
+  ],
+  "weekdays/short_2/sr-RS": [
+    "Po",
+    "Uto",
+    "Sre",
+    "Če",
+    "Pe",
+    "Su",
+    "Ne"
+  ],
+  "weekdays/full/ca-ES": [
+    "Dilluns",
+    "Dimarts",
+    "Dimecres",
+    "Dijous",
+    "Divendres",
+    "Dissabte",
+    "Diumenge"
+  ],
+  "weekdays/full/fi-FI": [
+    "Maanantai",
+    "Tiistai",
+    "Keskiviikko",
+    "Torstai",
+    "Perjantai",
+    "Lauantai",
+    "Sunnuntai"
+  ],
+  "weekdays/short_3/fi-FI": [
+    "Maa",
+    "Tii",
+    "Kes",
+    "Tor",
+    "Per",
+    "Lau",
+    "Sun"
+  ],
+  "weekdays/short_2/fi-FI": [
+    "Ma",
+    "Ti",
+    "Ke",
+    "To",
+    "Pe",
+    "La",
+    "Su"
+  ],
+  "weekdays/full/nb-NO": [
+    "Mandag",
+    "Tirsdag",
+    "Onsdag",
+    "Torsdag",
+    "Fredag",
+    "Lørdag",
+    "Søndag"
+  ],
+  "weekdays/short_3/nb-NO": [
+    "Man",
+    "Tir",
+    "Ons",
+    "Tor",
+    "Fre",
+    "Lør",
+    "Søn"
+  ],
+  "weekdays/short_2/nb-NO": [
+    "Ma",
+    "Ti",
+    "On",
+    "To",
+    "Fr",
+    "Lø",
+    "Sø"
+  ],
+  "weekdays/full/da-DK": [
+    "Mandag",
+    "Tirsdag",
+    "Onsdag",
+    "Torsdag",
+    "Fredag",
+    "Lørdag",
+    "Søndag"
+  ],
+  "weekdays/short_3/da-DK": [
+    "Man",
+    "Tir",
+    "Ons",
+    "Tor",
+    "Fre",
+    "Lør",
+    "Søn"
+  ],
+  "weekdays/short_2/da-DK": [
+    "Ma",
+    "Ti",
+    "On",
+    "To",
+    "Fr",
+    "Lø",
+    "Sø"
+  ],
+  "weekdays/full/sv-SE": [
+    "Måndag",
+    "Tisdag",
+    "Onsdag",
+    "Torsdag",
+    "Fredag",
+    "Lördag",
+    "Söndag"
+  ],
+  "weekdays/short_3/sv-SE": [
+    "Mån",
+    "Tis",
+    "Ons",
+    "Tor",
+    "Fre",
+    "Lör",
+    "Sön"
+  ],
+  "weekdays/short_2/sv-SE": [
+    "Må",
+    "Ti",
+    "On",
+    "To",
+    "Fr",
+    "Lö",
+    "Sö"
+  ],
+  "weekdays/full/hu-HU": [
+    "Hétfő",
+    "Kedd",
+    "Szerda",
+    "Csütörtök",
+    "Péntek",
+    "Szombat",
+    "Vasárnap"
+  ],
+  "weekdays/short_3/hu-HU": [
+    "Hét",
+    "Ked",
+    "Sze",
+    "Csü",
+    "Pén",
+    "Szo",
+    "Vas"
+  ],
+  "weekdays/short_2/hu-HU": [
+    "Hé",
+    "Ke",
+    "Sz",
+    "Cs",
+    "Pé",
+    "Sz",
+    "Va"
+  ],
+  "weekdays/full/ms-MY": [
+    "Isnin",
+    "Selasa",
+    "Rabu",
+    "Khamis",
+    "Jumaat",
+    "Sabtu",
+    "Ahad"
+  ],
+  "weekdays/short_3/ms-MY": [
+    "Isn",
+    "Sel",
+    "Rab",
+    "Kha",
+    "Jum",
+    "Sab",
+    "Aha"
+  ],
+  "weekdays/short_2/ms-MY": [
+    "Is",
+    "Se",
+    "Ra",
+    "Kh",
+    "Ju",
+    "Sa",
+    "Ah"
+  ],
+  "weekdays/full/sk-SK": [
+    "Pondelok",
+    "Utorok",
+    "Streda",
+    "Štvrtok",
+    "Piatok",
+    "Sobota",
+    "Nedeľa"
+  ],
+  "weekdays/short_3/sk-SK": [
+    "Pon",
+    "Uto",
+    "Str",
+    "Štv",
+    "Pia",
+    "Sob",
+    "Ned"
+  ],
+  "weekdays/short_2/sk-SK": [
+    "Po",
+    "Ut",
+    "St",
+    "Št",
+    "Pi",
+    "So",
+    "Ne"
+  ],
+  "weekdays/full/hi-IN": [
+    "सोमवार",
+    "मंगलवार",
+    "बुधवार",
+    "गुरुवार",
+    "शुक्रवार",
+    "शनिवार",
+    "रविवार"
+  ]
+}
