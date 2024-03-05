@@ -16,9 +16,7 @@ export function FontExtractApp() {
 
     return (
         <>
-            <BrowserSupportTest>
-                <BrowserSupportWarning />
-            </BrowserSupportTest>
+            <BrowserSupportTest />
             <div className="fontextract">
                 <div className="fontextract__pane pretty-form">
                     <TTFUploader />

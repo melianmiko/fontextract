@@ -3,6 +3,8 @@ import {initReactI18next} from "react-i18next";
 
 import RUSSIAN_STRINGS from "../i18n/ru.json";
 
+declare const APP_LANGUAGE: string;
+
 i18n
     .use(initReactI18next)
     .init({
@@ -11,6 +13,6 @@ i18n
                 translation: RUSSIAN_STRINGS,
             },
         },
-        lng: "ru",
+        lng: APP_LANGUAGE || "en",
         fallbackLng: "en",
     });

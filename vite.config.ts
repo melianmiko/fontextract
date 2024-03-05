@@ -12,9 +12,9 @@ export default defineConfig({
 			},
 			output: {
 				entryFileNames: `assets/[name].js`,
+				assetFileNames: `assets/[name].[ext]`,
 				chunkFileNames: `assets/[hash].js`,
-				assetFileNames: `assets/[hash].[ext]
-`			}
+			}
 		}
 	},
 	plugins: [preact()],
