@@ -1,19 +1,19 @@
-import {createSlice, PayloadAction} from "@reduxjs/toolkit";
+import { createSlice, type PayloadAction } from '@reduxjs/toolkit';
 
-export type AppConfig = {
-    darkTheme: boolean,
+export interface AppConfig {
+  darkTheme: boolean
 }
 
 const initialState: AppConfig = {
-    darkTheme: false,
-}
+  darkTheme: false
+};
 
 export const appConfigSlice = createSlice({
-    name: "app",
-    initialState,
-    reducers: {
-        setDarkThemeEnabled: (state: AppConfig, action: PayloadAction<boolean>) => {
-            state.darkTheme = action.payload;
-        },
+  name: 'app',
+  initialState,
+  reducers: {
+    setDarkThemeEnabled: (state: AppConfig, action: PayloadAction<boolean>) => {
+      state.darkTheme = action.payload;
     }
-})
+  }
+});

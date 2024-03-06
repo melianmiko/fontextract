@@ -1,24 +1,32 @@
-import {useId} from "react";
+import { type ReactElement, useId } from 'react';
 
-export type LabeledCheckboxProps = {
-    label: string,
-    value: boolean,
-    onChange: (v: boolean) => any,
+/**
+ * Properties type of labeled checkbox
+ */
+export interface LabeledCheckboxProps {
+  label: string
+  value: boolean
+  onChange: (v: boolean) => any
 }
 
-export function LabeledCheckbox(props: LabeledCheckboxProps) {
-    const id = useId();
+/**
+ * Checkbox with label component
+ * @param props Properties
+ * @constructor
+ */
+export function LabeledCheckbox (props: LabeledCheckboxProps): ReactElement {
+  const id = useId();
 
-    return (
-        <div class="fontextract__config__checkbox-root">
-            <input type="checkbox"
-                   id={id}
-                   checked={props.value}
-                   onChange={(e) => props.onChange((e.target as HTMLInputElement).checked)} />
+  return (
+    <div className="fontextract__config__checkbox-root">
+      <input type="checkbox"
+             id={id}
+             checked={props.value}
+             onChange={(e) => props.onChange((e.target as HTMLInputElement).checked)} />
 
-            <label for={id}>
-                {props.label}
-            </label>
-        </div>
-    )
+      <label htmlFor={id}>
+        {props.label}
+     </label>
+    </div>
+  );
 }

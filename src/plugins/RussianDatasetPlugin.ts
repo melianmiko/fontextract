@@ -1,13 +1,12 @@
-import data from "./data/default_ru.json";
-import {DefaultDatasetPlugin} from "./DefaultDatasetPlugin";
+import data from './data/default_ru.json';
+import { DefaultDatasetPlugin, type TextDataset } from './DefaultDatasetPlugin';
 
-export type TextDataset = {
-    [folderName: string]: string[],
-}
-
+/**
+ * Russian dataset plugin
+ */
 export class RussianDatasetPlugin extends DefaultDatasetPlugin {
-    id: string = "russianDataset";
-    displayName: string = "Russian weekdays and months";
+  id: string = 'russianDataset';
+  displayName: string = 'Russian weekdays and months';
 
-    protected dataset: TextDataset = data;
+  protected dataset: TextDataset = data;
 }

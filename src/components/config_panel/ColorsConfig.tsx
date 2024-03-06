@@ -1,22 +1,27 @@
-import {ColorPicker} from "../ui/ColorPicker";
-import {useTranslation} from "react-i18next";
-import {useStoreDispatch, useStoreSelector} from "../../redux/hooks";
-import {MyStoreActions} from "../../redux/store";
+import { ColorPicker } from '../ui/ColorPicker';
+import { useTranslation } from 'react-i18next';
+import { useStoreDispatch, useStoreSelector } from '../../redux/hooks';
+import { MyStoreActions } from '../../redux/store';
+import { type ReactElement } from 'react';
 
-export function ColorsConfig() {
-    const dispatch = useStoreDispatch();
-    const bgColor = useStoreSelector((s) => s.renderConfig.colorBackground);
-    const textColor = useStoreSelector((s) => s.renderConfig.colorText);
+/**
+ * Font extract colors config block.
+ * @constructor
+ */
+export function ColorsConfig (): ReactElement {
+  const dispatch = useStoreDispatch();
+  const bgColor = useStoreSelector((s) => s.renderConfig.colorBackground);
+  const textColor = useStoreSelector((s) => s.renderConfig.colorText);
 
-    const {t} = useTranslation();
-    return (
+  const { t } = useTranslation();
+  return (
         <>
-            <ColorPicker label={t("Background color:")}
+            <ColorPicker label={t('Background color:')}
                          color={bgColor}
                          onChange={(v) => dispatch(MyStoreActions.setBackgroundColor(v))} />
-            <ColorPicker label={t("Text color:")}
+            <ColorPicker label={t('Text color:')}
                          color={textColor}
                          onChange={(v) => dispatch(MyStoreActions.setTextColor(v))} />
         </>
-    )
+  );
 }

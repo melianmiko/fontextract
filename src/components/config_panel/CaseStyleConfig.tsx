@@ -1,34 +1,35 @@
-import {useTranslation} from "react-i18next";
-import {LabeledSelect} from "../ui/LabeledSelect";
-import {CaseMode} from "../../internals";
-import {useStoreDispatch, useStoreSelector} from "../../redux/hooks";
-import {MyStoreActions} from "../../redux/store";
+import { useTranslation } from 'react-i18next';
+import { LabeledSelect } from '../ui/LabeledSelect';
+import { CaseMode } from '../../internals';
+import { useStoreDispatch, useStoreSelector } from '../../redux/hooks';
+import { MyStoreActions } from '../../redux/store';
+import { type ReactElement } from 'react';
 
 /**
  * Displays text case mode selector.
  * @constructor
  */
-export function CaseStyleConfig() {
-    const caseMode = useStoreSelector((s) => s.renderConfig.caseMode);
-    const dispatch = useStoreDispatch();
+export function CaseStyleConfig (): ReactElement {
+  const caseMode = useStoreSelector((s) => s.renderConfig.caseMode);
+  const dispatch = useStoreDispatch();
 
-    const {t} = useTranslation();
-    return (
-        <LabeledSelect label={t("Text case:")}
+  const { t } = useTranslation();
+  return (
+        <LabeledSelect label={t('Text case:')}
                        value={caseMode.toString()}
                        onChange={(v) => dispatch(MyStoreActions.setCaseMode(parseInt(v)))}>
             <option value={CaseMode.DEFAULT}>
-                {t("Normal text")}
+                {t('Normal text')}
             </option>
             <option value={CaseMode.UPPER_CASE}>
-                {t("UPPER CASE")}
+                {t('UPPER CASE')}
             </option>
             <option value={CaseMode.LOWER_CASE}>
-                {t("lower case")}
+                {t('lower case')}
             </option>
             <option value={CaseMode.EMO_STYLE}>
-                {t("I aM eMoGiRl")}
+                {t('I aM eMoGiRl')}
             </option>
         </LabeledSelect>
-    )
+  );
 }

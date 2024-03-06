@@ -6,10 +6,12 @@
 		"noEmit": true,
 		"allowJs": true,
 		"checkJs": true,
+		"strictNullChecks": true,
 
 		/* Preact Config */
 		"jsx": "react-jsx",
 		"jsxImportSource": "preact",
+		"strict": true,
 		"skipLibCheck": true,
 		"paths": {
 			"react": ["./node_modules/preact/compat/"],

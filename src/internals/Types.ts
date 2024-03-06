@@ -1,27 +1,23 @@
-import {CaseMode} from "./Enums";
-import {FontExtractPlugin} from "./Generic";
+import { type CaseMode } from './Enums';
 
-export type RenderConfig = {
-    colorText: string,
-    colorBackground: string,
-    fontSize: number,
-    caseMode: CaseMode,
-    borderWidth: number,
-    equalWidth: boolean,
-    equalHeight: boolean,
-    marginX: number,
-    marginY: number,
-    fileNamePrefix: string,
-    // plugins: FontExtractPlugin[],
+export interface RenderConfig {
+  colorText: string
+  colorBackground: string
+  fontSize: number
+  caseMode: CaseMode
+  borderWidth: number
+  equalWidth: boolean
+  equalHeight: boolean
+  marginX: number
+  marginY: number
+  fileNamePrefix: string
 }
 
-export type FontExtractRenderMetrics = {
-    fallbackFontHeight: number,
-    metricsBaseContext: CanvasRenderingContext2D,
-    topOffset: number,
+export interface FontExtractRenderMetrics {
+  fallbackFontHeight: number
+  metricsBaseContext: CanvasRenderingContext2D
+  topOffset: number
 }
 
 export type ImagesMap = Map<string, HTMLCanvasElement>;
-export type FontExtractFiles = {
-    [folderName: string]: ImagesMap,
-}
+export type FontExtractFiles = Record<string, ImagesMap>;

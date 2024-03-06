@@ -1,26 +1,34 @@
-import {useId} from "react";
+import { type ReactElement, useId } from 'react';
 
-export type LabeledInputProps = {
-    label: string,
-    type: string,
-    value: string,
-    onChange?: (v: string) => any,
-    onBlur?: (v: string) => any,
+/**
+ * LabeledInput props type
+ */
+export interface LabeledInputProps {
+  label: string
+  type: string
+  value: string
+  onChange?: (v: string) => any
+  onBlur?: (v: string) => any
 }
 
-export function LabeledInput(props: LabeledInputProps) {
-    const id = useId();
+/**
+ * Input field with label
+ * @param props Properties
+ * @constructor
+ */
+export function LabeledInput (props: LabeledInputProps): ReactElement {
+  const id = useId();
 
-    return (
-        <>
-            <label for={id}>
-                {props.label}
-            </label>
-            <input type={props.type}
-                   id={id}
-                   value={props.value}
-                   onChange={(e) => props.onChange && props.onChange((e.target as HTMLInputElement).value)}
-                   onBlur={(e) => props.onBlur && props.onBlur((e.target as HTMLInputElement).value)} />
-        </>
-    )
+  return (
+      <>
+        <label htmlFor={id}>
+          {props.label}
+        </label>
+        <input type={props.type}
+               id={id}
+               value={props.value}
+               onChange={(e) => props.onChange?.((e.target as HTMLInputElement).value)}
+               onBlur={(e) => props.onBlur?.((e.target as HTMLInputElement).value)} />
+      </>
+  );
 }
