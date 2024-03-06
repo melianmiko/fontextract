@@ -7,7 +7,7 @@ export default defineConfig({
 	build: {
 		rollupOptions: {
 			input: {
-				index: path.resolve(__dirname, 'standalone/index.html'),
+				standalone: path.resolve(__dirname, 'standalone/index.html'),
 				embedded: path.resolve(__dirname, 'embedded/index.html'),
 			},
 			output: {
@@ -15,7 +15,10 @@ export default defineConfig({
 				assetFileNames: `assets/[name].[ext]`,
 				chunkFileNames: `assets/[hash].js`,
 			}
-		}
+		},
+	},
+	server: {
+		open: "/standalone/"
 	},
 	plugins: [preact()],
 });
