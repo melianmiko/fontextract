@@ -1,10 +1,10 @@
 import {render} from "preact";
 import {createHashRouter, RouterProvider} from "react-router-dom";
-import {PageRoot} from "./components/page/PageRoot";
-import {FontExtractApp} from "./FontExtractApp";
-import {store} from "./redux/store";
+import {PageRoot} from "../src/components/page/PageRoot";
+import {FontExtractApp} from "../src/FontExtractApp";
+import {AboutPage} from "../src/AboutPage";
+import {store} from "../src/redux/store";
 import {Provider} from "react-redux";
-import {AboutPage} from "./AboutPage";
 
 const router = createHashRouter([
     {

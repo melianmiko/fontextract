@@ -1,0 +1,62 @@
+@import "../config";
+
+.pretty-form {
+  label,
+  input,
+  textarea,
+  select {
+    display: block;
+    width: 100%;
+  }
+
+  input[type="checkbox"],
+  input[type="submit"]{
+    display: inline;
+    width: initial;
+  }
+
+  label {
+    opacity: 0.9;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    font-size: 0.8em;
+  }
+
+  input[type=""],
+  input[type="text"],
+  input[type="number"],
+  input[type="color"],
+  input[type="email"],
+  textarea,
+  select {
+    margin: 4px 0;
+    box-sizing: border-box;
+    padding: 8px;
+    border-radius: 6px;
+    border: thin var(--border-dark) solid;
+    color: var(--fg-page);
+    background: var(--bg-card);
+    font-size: 0.9em;
+    line-height: 1rem;
+    font-family: inherit;
+
+    &[type='number'] {
+      -moz-appearance: textfield;
+    }
+
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+    }
+
+    &:focus {
+      border-color: var(--border);
+    }
+  }
+
+  textarea {
+    resize: none;
+    height: 8em;
+  }
+}
+

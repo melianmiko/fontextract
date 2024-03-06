@@ -7,7 +7,7 @@ export default defineConfig({
 	build: {
 		rollupOptions: {
 			input: {
-				main: path.resolve(__dirname, 'index.html'),
+				index: path.resolve(__dirname, 'standalone/index.html'),
 				embedded: path.resolve(__dirname, 'embedded/index.html'),
 			},
 			output: {

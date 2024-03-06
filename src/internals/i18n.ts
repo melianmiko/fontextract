@@ -13,6 +13,6 @@ i18n
                 translation: RUSSIAN_STRINGS,
             },
         },
-        lng: APP_LANGUAGE || "en",
+        lng: typeof APP_LANGUAGE == "string" ? APP_LANGUAGE : "en",
         fallbackLng: "en",
     });

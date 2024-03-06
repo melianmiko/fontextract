@@ -1,21 +1,22 @@
-import './style.css';
-import "./internals/i18n";
 import {ConfigPanel} from "./components/config_panel/ConfigPanel";
 import {TTFUploader} from "./components/TTFUploader";
 import {CSSResultPreview} from "./components/CSSResultPreview";
 import {BrowserSupportTest} from "./components/BrowserSupportTest";
 import {ColorsConfig} from "./components/config_panel/ColorsConfig";
-import {BrowserSupportWarning} from "./components/BrowserSupportWarning";
 import {useTranslation} from "react-i18next";
 import {processAll} from "./base/MainProcess";
 import {SectionLabel} from "./components/ui/SectionLabel";
 import {ContentConfigPanel} from "./components/config_panel/ContentConfigPanel";
+import {store} from "./redux/store";
+import {Provider} from "react-redux";
+import './style.css';
+import "./internals/i18n";
 
 export function FontExtractApp() {
     const {t} = useTranslation();
 
     return (
-        <>
+        <Provider store={store}>
             <BrowserSupportTest />
             <div className="fontextract">
                 <div className="fontextract__pane pretty-form">
@@ -43,6 +44,6 @@ export function FontExtractApp() {
 					</span>
                 </a>
             </div>
-        </>
+        </Provider>
     );
 }

@@ -1,0 +1,45 @@
+@use "mixins";
+@import "../config";
+
+.page-group {
+  margin: 8px -8px;
+  margin-bottom: 24px;
+  width: fit-content;
+  cursor: default;
+  user-select: none;
+  white-space: nowrap;
+  overflow-y: hidden;
+  overflow-x: auto;
+  max-width: calc(100vw - 16px);
+  display: flex;
+
+  a:link, a:visited {
+    color: var(--fg-text);
+    text-decoration: none;
+  }
+
+  & > a {
+    padding: 0 12px;
+    line-height: 32px;
+    max-height: 32px;
+    display: block;
+    border-radius: 4px;
+    transition: border-color .5s;
+    border: thin transparent solid;
+
+    &:hover {
+      border: thin var(--highlight-bg) solid;
+    }
+
+    &.link_active {
+      border: thin var(--fg-page) solid;
+      color: var(--fg-page);
+    }
+
+    #{$icon_classname} {
+      line-height: inherit;
+      max-width: 24px;
+      overflow: hidden;
+    }
+  }
+}
