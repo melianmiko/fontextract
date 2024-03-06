@@ -4,8 +4,6 @@ import {pluginConfigSlice} from "./pluginConfigSlice";
 import {appConfigSlice} from "./appConfigSlice";
 import {localStorageMiddleware} from "./middleware";
 
-export type MyStore = ReturnType<typeof store.getState>;
-
 export const store = configureStore({
     preloadedState: {
         app: {
@@ -16,6 +14,8 @@ export const store = configureStore({
     middleware: (defaults) => defaults()
         .prepend(localStorageMiddleware.middleware),
 })
+
+export type MyStore = ReturnType<typeof store.getState>;
 
 export const MyStoreActions = {
     ...renderConfigSlice.actions,

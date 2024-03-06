@@ -1,6 +1,6 @@
 import {ConfigPanel} from "./components/config_panel/ConfigPanel";
 import {TTFUploader} from "./components/TTFUploader";
-import {CSSResultPreview} from "./components/CSSResultPreview";
+import {PreviewPanel} from "./components/PreviewPanel";
 import {BrowserSupportTest} from "./components/BrowserSupportTest";
 import {ColorsConfig} from "./components/config_panel/ColorsConfig";
 import {useTranslation} from "react-i18next";
@@ -35,7 +35,7 @@ export function FontExtractApp() {
                     <ColorsConfig />
                 </div>
             </div>
-            <CSSResultPreview />
+            <PreviewPanel />
             <div className="button-bar left">
                 <a class="button-primary" onClick={() => processAll()}>
                     <span class="material-symbols-outlined">double_arrow</span>
